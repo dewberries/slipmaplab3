@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+        <!--custom stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="lib/scrollmap.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="content">
+            <!--title block, background image is title image-->
+            <div class="row1" style="background-image:url(assets/title.png); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center;">
+            </div>
+            
+
+            <!--text content block-->
+            <div class="row3">
+                <div class="box">
+                    <p class="intro">
+                        Welcome to the grid, User.
+                        <br>This web map was inspired by all things cyberwave, Retro Sci-Fi, and the glowing universe of the Tron movies. 
+                        The style uses neon colors, geometric shapes, and grid patterns to create a map that feels more like a sci-fi world than a real one. 
+                        The intention was to make the map feel like you're navigating inside a digital circuitry realm. 
+                        Imagine a mix of classic arcade vibes, cyberwave art, and futuristic tech. 
+                        From the glowing roads to the dark background, the map design is meant to pull you into that retro-futuristic aesthetic.
+                    </p>
+                </div>
+            </div>
+
+
+            <!--side by side text and image-->
+            <div class="row2">
+                <div class="left1">
+                    <div class="box2">
+                        <a href="https://siftingthroughpatterns.wordpress.com/wp-content/uploads/2012/05/troncitycapture.jpg"><img class="fit1" src="assets/troncitycapture.jpg"></a>
+                    </div>
+                </div>
+                <div class="right1">
+                    <div class="box2">
+                        <a href="https://siftingthroughpatterns.wordpress.com/wp-content/uploads/2012/05/tronplaneorb.jpg"><img class="fit1" src="assets/tronplaneorb.jpg"></a>
+                    </div>
+                </div>
+                <div class="right1">
+                    <div class="box2">
+                        <a href="https://www.istockphoto.com/"><img class="fit1" src="assets/istockphoto-1404521764-640x640.jpg"></a>
+                    </div>
+                </div>
+                <div class="right1">
+                    <div class="box2">
+                        <a href="https://www.carbodydesign.com/2020/01/remembering-syd-mead-1933-2019/"><img class="fit1" src="assets/US-Steel-Concept-Art-by-Syd-Mead-01.jpg"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row3">
+                <div class="box">
+                    <p class="infotext">
+                        This map utilized the four photos above as inspiration. 
+                        I used bright neon colors like pink, green, blue, and yellow, all set on a dark background to make everything stand out.
+                        You will also see grid-like linear lines and spheres throughout the design that echo the design elements of the photos.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-bottom: 10rem;">
+                <div class="center-wide">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container" style="box-shadow: 0 0 20px #2b00eb; background-color: #000000b3; border-radius: 20px;">
+                        <!--slideshow content goes here-->
+                        <div class="slide">
+                            <img src="assets/BuildingTexture.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">I added a circuitry pattern to the building layer to give it a bit of texture and tie into the overall digital theme. 
+                                <br>The idea was to make the buildings feel like part of a computer chip, adding that extra layer of sci-fi, tech-inspired detail to the map.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/gridlines.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">Grid lines are a huge part of this style, so I made my own and used them as the water layer. 
+                                <br>It gives the effect that the land is sitting on top of a grid, like it is some kind of retro simulation.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/mountaintexture.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">You will see a lot of flat grid planes in this kind of art, usually with mountains in the back. 
+                                <br>But once the grid starts to show elevation or topography, it adds a whole new layer of depth. 
+                                <br>I created a triangular grid pattern to the land hillshade to give it texture and make it look like the grid is reacting to the terrain.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/Orbs.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">There are a lot of bright gradient spheres in the reference photos, so I wanted to bring that into the map too. 
+                                <br>I used that look for the city points, giving them a glowing, circular style that matches the synthy, neon vibe. 
+                                <br>It helps the cities stand out while also tying directly back to the visual feel of the artwork.</p>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev">&#10094;</a>
+                        <a class="next">&#10095;</a>
+
+                        <!-- The dots/circles -->
+                        <div class="slideshow-dots">
+                            <span class="dot" id="1"></span>
+                            <span class="dot" id="2"></span>
+                            <span class="dot" id="3"></span>
+                            <span class="dot" id="4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!--background images with text scrolling over them (sidecar)-->
+            <div class="scroll-container">    
+                <!--background images-->
+                <div class="background-item" style="margin-bottom: 10em">
+                    <img src="assets/Worldview.png" data-slide="1" class="fill" style="width: 100%; height: auto; margin: 0 auto; display: block; object-fit: contain;">
+                    <img src="assets/stateview.png" data-slide="2" class="fill hidden" style="width: 100%; height: auto;  margin: 0 auto; display: block; object-fit: contain;">
+                    <img src="assets/CityView.png" data-slide="3" class="fill hidden" style="width: 100%; height: auto;  margin: 0 auto; display: block; object-fit: contain;">
+                    <img src="assets/Streetview.png" data-slide="4" class="fill hidden" style="width: 100%; height: auto;  margin: 0 auto; display: block; object-fit: contain;">
+                </div>
+
+
+                <!--foreground text blocks-->
+                <div class="foreground-item">
+                    <div class="row">
+                        <div class="center background-transparent rounded" style="box-shadow: 0 0 20px #2b00eb; background-color: #090116f6; border-radius: 20px;">
+                            <p class="no-margin" style="font-size: larger;">The world view zoom level shows the underlying grid and neon green country borders. 
+                                The neon colors and intensity will grow as the zoom level gets higher.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded" style="box-shadow: 0 0 20px #2b00eb; background-color: #090116f6; border-radius: 20px;">
+                            <p class="no-margin" style="font-size: larger;">At the country level, you start to see major roads layered over the glowing borders. 
+                                It feels like more data streams are being revealed in this digital world the closer you zoom in.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded" style="box-shadow: 0 0 20px #2b00eb; background-color: #090116f6; border-radius: 20px;">
+                            <p class="no-margin" style="font-size: larger;">At the city zoom level, the dense road networks really bring out the grid and data stream aesthetic. 
+                                The land color intensifies into a brighter blue color to add an ambiance of digital "aliveness".
+                                The map feels more electric and immersive here, like you are further inside the system.
+                                In this view, the large nearby lake reveals the base grid texture underneath, which adds to the effect that the land is just sitting on a digital plane.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-transparent rounded" style="box-shadow: 0 0 20px #2b00eb; background-color: #090116f6; border-radius: 20px;">
+                            <p class="no-margin" style="font-size: larger;">Finally, at the street view zoom level, the mountain and building textures show up best at this scale.
+                                It starts to feel like you are seeing the inner workings of the map (like digital circuitry up close).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row" style="margin-bottom: 15rem;">
+                <div class="center-wide">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container" style="box-shadow: 0 0 20px #2b00eb; background-color: #000000b3; border-radius: 20px;">
+                        <!--slideshow content goes here-->
+                        <div class="slide">
+                            <img src="assets/newyork.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">New York is more populated, and that shows in the map through dense data grids. 
+                                <br>The road network is super structured and grid-based, which really amplifies the digital aesthetic. 
+                                <br>It feels like the city is built right into the circuitry of the map.
+                                </p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/Colorado.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">Colorado is super mountainous, and it really shows off the texture I added to the land. 
+                                I wanted the mountains to feel like they were generated inside a digital system.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/PapuaNewGuinea.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">Papua New Guinea shows off tons of water networks flowing from the mountains down into the ocean. 
+                                <br>It almost looks like data streams branching out and cracking into the digital surface. 
+                                <br>The rivers give off the vibe of glowing data flows breaking through the terrain.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/Greenland.png" style="width:100%; height:auto; object-fit:contain; max-height:80vh; border-radius:10px;">
+                            <p class="caption">Greenland and the polar regions are noticeably darker on the map. 
+                                <br>Just like in real life, where few people live, it gives off the feeling that in this digital world, data hasn’t fully reached these areas yet. 
+                                <br>It is like they are "off the grid".</p>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev">&#10094;</a>
+                        <a class="next">&#10095;</a>
+
+                        <!-- The dots/circles -->
+                        <div class="slideshow-dots">
+                            <span class="dot" id="1"></span>
+                            <span class="dot" id="2"></span>
+                            <span class="dot" id="3"></span>
+                            <span class="dot" id="4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row3" style="margin-bottom: 5rem;">
+                <div class="box">
+                    <p class="infotext">
+                        You can explore the web map below.
+                        <br>Click <a href="https://api.mapbox.com/styles/v1/dmgibbs/cm94wd6kw007601qtbeowhwhh.html?title=view&access_token=pk.eyJ1IjoiZG1naWJicyIsImEiOiJjbTdlN2hxejMwYXBsMmtvZ25vcXAwY3g4In0.XBq_6BSCkFxo84-pCx_17w&zoomwheel=true&fresh=true#11.32/36.1253/-86.7632/0/47" target="_blank">HERE</a> to open in a new tab.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-bottom: 10rem;">
+                <div class="center-wide">
+                    <iframe class="fit" src="https://api.mapbox.com/styles/v1/dmgibbs/cm94wd6kw007601qtbeowhwhh.html?title=view&access_token=pk.eyJ1IjoiZG1naWJicyIsImEiOiJjbTdlN2hxejMwYXBsMmtvZ25vcXAwY3g4In0.XBq_6BSCkFxo84-pCx_17w&zoomwheel=true&fresh=true#11.32/36.1253/-86.7632/0/47"></iframe>
+                </div>
+            </div>
+
+
+
+            <!--credits-->
+            <div class="row no-margin" style="display: flex; justify-content: center; align-items: center; margin-bottom: 10rem; width: 100%;">
+                    <div class="infotext">
+                        <p>Thank you for viewing!</p>
+                        <p><b>Credits: </b>Map created with Mapbox Studio. Data from openstreetmap.
+                        <br>Web map created for UW Madison GEOG 572 course. Spring 2025.
+                        </p>
+                    </div>
+            </div>
+
+        </div>
+        <!--external scripts-->
+        <script type="text/javascript" src="lib/scrollmap.js"></script>
+    </body>
+</html>
